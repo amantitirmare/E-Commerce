@@ -17,7 +17,6 @@ namespace IMS_Project.Models
         public int WishlistID { get; set; }
         public int CustomerID { get; set; }
         public int ProductID { get; set; }
-        public Nullable<decimal> Price { get; set; }
         public Nullable<bool> isActive { get; set; }
     
         public virtual Customer Customer { get; set; }

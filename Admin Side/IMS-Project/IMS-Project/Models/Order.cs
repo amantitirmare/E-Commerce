@@ -35,6 +35,7 @@ namespace IMS_Project.Models
         public Nullable<System.DateTime> DeliveryDate { get; set; }
         public string Notes { get; set; }
         public Nullable<bool> CancelOrder { get; set; }
+        public Nullable<bool> isCompleted { get; set; }
     
         public virtual Customer Customer { get; set; }
         public virtual Payment Payment { get; set; }

@@ -38,10 +38,9 @@ namespace IMS_Project.Models
         public DbSet<ShippingDetail> ShippingDetails { get; set; }
         public DbSet<SubCategory> SubCategories { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
-        public DbSet<sysdiagram> sysdiagrams { get; set; }
-        public DbSet<Wishlist> Wishlists { get; set; }
         public DbSet<admin_Employee> admin_Employee { get; set; }
         public DbSet<admin_Login> admin_Login { get; set; }
         public DbSet<Order> Orders { get; set; }
+        public DbSet<Wishlist> Wishlists { get; set; }
     }
 }

@@ -24,6 +24,8 @@
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -202,9 +204,6 @@
       <DependentUpon>KahreedoDataModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SupplierExtend.cs" />
-    <Compile Include="Models\sysdiagram.cs">
-      <DependentUpon>KahreedoDataModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Models\TemData.cs" />
     <Compile Include="Models\Wishlist.cs">
       <DependentUpon>KahreedoDataModel.tt</DependentUpon>

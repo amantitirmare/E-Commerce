@@ -62,6 +62,7 @@
     <EntitySetMapping Name="genPromoRights">
       <EntityTypeMapping TypeName="Models.genPromoRight">
         <MappingFragment StoreEntitySet="genPromoRight">
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
           <ScalarProperty Name="PromoRightID" ColumnName="PromoRightID" />
           <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
           <ScalarProperty Name="AltText" ColumnName="AltText" />
@@ -207,28 +208,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="sysdiagrams">
-      <EntityTypeMapping TypeName="Models.sysdiagram">
-        <MappingFragment StoreEntitySet="sysdiagrams">
-          <ScalarProperty Name="name" ColumnName="name" />
-          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
-          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
-          <ScalarProperty Name="version" ColumnName="version" />
-          <ScalarProperty Name="definition" ColumnName="definition" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="Wishlists">
-      <EntityTypeMapping TypeName="Models.Wishlist">
-        <MappingFragment StoreEntitySet="Wishlist">
-          <ScalarProperty Name="WishlistID" ColumnName="WishlistID" />
-          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
-          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
-          <ScalarProperty Name="Price" ColumnName="Price" />
-          <ScalarProperty Name="isActive" ColumnName="isActive" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="admin_Employee">
       <EntityTypeMapping TypeName="Models.admin_Employee">
         <MappingFragment StoreEntitySet="admin_Employee">
@@ -261,6 +240,7 @@
     <EntitySetMapping Name="Orders">
       <EntityTypeMapping TypeName="Models.Order">
         <MappingFragment StoreEntitySet="Order">
+          <ScalarProperty Name="isCompleted" ColumnName="isCompleted" />
           <ScalarProperty Name="CancelOrder" ColumnName="CancelOrder" />
           <ScalarProperty Name="Notes" ColumnName="Notes" />
           <ScalarProperty Name="DeliveryDate" ColumnName="DeliveryDate" />
@@ -277,6 +257,16 @@
           <ScalarProperty Name="PaymentID" ColumnName="PaymentID" />
           <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
           <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Wishlists">
+      <EntityTypeMapping TypeName="Models.Wishlist">
+        <MappingFragment StoreEntitySet="Wishlist">
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="WishlistID" ColumnName="WishlistID" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

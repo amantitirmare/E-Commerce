@@ -18,6 +18,7 @@ namespace IMS_Project.Models
         {
             this.Products = new HashSet<Product>();
             this.SubCategories = new HashSet<SubCategory>();
+            this.genPromoRights = new HashSet<genPromoRight>();
         }
     
         public int CategoryID { get; set; }
@@ -29,5 +30,6 @@ namespace IMS_Project.Models
     
         public virtual ICollection<Product> Products { get; set; }
         public virtual ICollection<SubCategory> SubCategories { get; set; }
+        public virtual ICollection<genPromoRight> genPromoRights { get; set; }
     }
 }

@@ -17,8 +17,8 @@ namespace IMS_Project.Models
         public Customer()
         {
             this.Reviews = new HashSet<Review>();
-            this.Wishlists = new HashSet<Wishlist>();
             this.Orders = new HashSet<Order>();
+            this.Wishlists = new HashSet<Wishlist>();
         }
     
         public int CustomerID { get; set; }
@@ -49,7 +49,7 @@ namespace IMS_Project.Models
         public string Notes { get; set; }
     
         public virtual ICollection<Review> Reviews { get; set; }
-        public virtual ICollection<Wishlist> Wishlists { get; set; }
         public virtual ICollection<Order> Orders { get; set; }
+        public virtual ICollection<Wishlist> Wishlists { get; set; }
     }
 }

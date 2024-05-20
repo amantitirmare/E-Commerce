@@ -26,3 +26,33 @@ C:\Users\Zulfiqar Akram\Documents\Visual Studio 2013\Projects\IMS-Project\IMS-Pr
 C:\Users\Zulfiqar Akram\Documents\Visual Studio 2013\Projects\IMS-Project\IMS-Project\obj\Debug\IMS-Project.dll
 C:\Users\Zulfiqar Akram\Documents\Visual Studio 2013\Projects\IMS-Project\IMS-Project\obj\Debug\IMS-Project.pdb
 C:\Users\Zulfiqar Akram\Documents\Visual Studio 2013\Projects\IMS-Project\IMS-Project\obj\Debug\IMS-Project.csprojResolveAssemblyReference.cache
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\IMS-Project.dll.config
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\IMS-Project.dll
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\IMS-Project.pdb
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\Antlr3.Runtime.dll
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\EntityFramework.dll
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\Microsoft.Web.Infrastructure.dll
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\Newtonsoft.Json.dll
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\System.Web.Helpers.dll
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\System.Web.Mvc.dll
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\System.Web.Optimization.dll
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\System.Web.Razor.dll
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\System.Web.WebPages.Deployment.dll
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\System.Web.WebPages.dll
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\System.Web.WebPages.Razor.dll
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\WebGrease.dll
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\EntityFramework.xml
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\System.Web.Helpers.xml
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\System.Web.Mvc.xml
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\System.Web.Optimization.xml
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\System.Web.Razor.xml
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\System.Web.WebPages.xml
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\System.Web.WebPages.Deployment.xml
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\System.Web.WebPages.Razor.xml
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\Antlr3.Runtime.pdb
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\bin\Newtonsoft.Json.xml
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\obj\Debug\IMS-Project.csproj.AssemblyReference.cache
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\obj\Debug\IMS-Project.csproj.CoreCompileInputs.cache
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\obj\Debug\IMS-Project.csproj.CopyComplete
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\obj\Debug\IMS-Project.dll
+D:\Khrido\E-Commerce\Admin Side\IMS-Project\IMS-Project\obj\Debug\IMS-Project.pdb

@@ -20,5 +20,8 @@ namespace IMS_Project.Models
         public string OfferTag { get; set; }
         public string Title { get; set; }
         public Nullable<bool> isDeleted { get; set; }
+        public int CategoryID { get; set; }
+    
+        public virtual Category Category { get; set; }
     }
 }

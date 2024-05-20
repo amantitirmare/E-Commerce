@@ -18,18 +18,14 @@
         <EntityTypeShape EntityType="Models.ShippingDetail" Width="1.5" PointX="3" PointY="22.375" IsExpanded="true" />
         <EntityTypeShape EntityType="Models.SubCategory" Width="1.5" PointX="3" PointY="14.75" IsExpanded="true" />
         <EntityTypeShape EntityType="Models.Supplier" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="Models.sysdiagram" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Models.Wishlist" Width="1.5" PointX="7.5" PointY="7" IsExpanded="true" />
         <AssociationConnector Association="Models.FK_Products_Categories" ManuallyRouted="false" />
         <AssociationConnector Association="Models.FK_SubCategory_Categories" ManuallyRouted="false" />
         <AssociationConnector Association="Models.FK_Review_Customers" ManuallyRouted="false" />
-        <AssociationConnector Association="Models.FK_Wishlist_Customers" ManuallyRouted="false" />
         <AssociationConnector Association="Models.FK_OrderDetails_Products" ManuallyRouted="false" />
         <AssociationConnector Association="Models.FK_Payment_PaymentType" ManuallyRouted="false" />
         <AssociationConnector Association="Models.FK_Products_SubCategory" ManuallyRouted="false" />
         <AssociationConnector Association="Models.FK_Products_Suppliers" ManuallyRouted="false" />
         <AssociationConnector Association="Models.FK_Review_Products" ManuallyRouted="false" />
-        <AssociationConnector Association="Models.FK_Wishlist_Products" ManuallyRouted="false" />
         <EntityTypeShape EntityType="Models.admin_Employee" Width="1.5" PointX="12.375" PointY="0.75" />
         <EntityTypeShape EntityType="Models.admin_Login" Width="1.5" PointX="14.625" PointY="1.875" />
         <AssociationConnector Association="Models.FK_admin_Login_admin_Employee" />
@@ -39,6 +35,10 @@
         <AssociationConnector Association="Models.FK_Order_Payment" />
         <AssociationConnector Association="Models.FK_Order_ShippingDetails" />
         <AssociationConnector Association="Models.FK_OrderDetails_Order" />
+        <AssociationConnector Association="Models.FK_genPromoRight_Categories" />
+        <EntityTypeShape EntityType="Models.Wishlist" Width="1.5" PointX="7.5" PointY="7.25" />
+        <AssociationConnector Association="Models.FK_Wishlist_Customers" />
+        <AssociationConnector Association="Models.FK_Wishlist_Products" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
