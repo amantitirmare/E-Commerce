@@ -42,7 +42,6 @@ namespace Khareedo.Models
         public DbSet<ShippingDetail> ShippingDetails { get; set; }
         public DbSet<SubCategory> SubCategories { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
-        public DbSet<sysdiagram> sysdiagrams { get; set; }
         public DbSet<Wishlist> Wishlists { get; set; }
     }
 }

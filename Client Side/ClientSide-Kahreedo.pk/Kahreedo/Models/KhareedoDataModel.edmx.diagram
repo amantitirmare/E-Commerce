@@ -22,7 +22,6 @@
         <EntityTypeShape EntityType="KahreedoModels.ShippingDetail" Width="1.5" PointX="3" PointY="27.75" IsExpanded="true" />
         <EntityTypeShape EntityType="KahreedoModels.SubCategory" Width="1.5" PointX="3" PointY="20" IsExpanded="true" />
         <EntityTypeShape EntityType="KahreedoModels.Supplier" Width="1.5" PointX="3" PointY="14.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="KahreedoModels.sysdiagram" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="KahreedoModels.Wishlist" Width="1.5" PointX="10.5" PointY="12.5" IsExpanded="true" />
         <AssociationConnector Association="KahreedoModels.FK_admin_Login_admin_Employee" ManuallyRouted="false" />
         <AssociationConnector Association="KahreedoModels.FK_admin_Login_Roles" ManuallyRouted="false" />
